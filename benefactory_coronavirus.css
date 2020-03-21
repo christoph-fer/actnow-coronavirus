@@ -132,11 +132,11 @@ input[type="text"] {
   font-family: "Work Sans", sans-serif;
   font-size: 11px;
   width: 100%;
-  padding: 10px;
+  padding: 10px 15px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 1px solid #e2e2e2;
-  border-radius: 3px;
+  border-radius: 35px;
   outline: none;
   filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.05));
 }
@@ -150,9 +150,9 @@ input[type="button"] {
   background-color: #ba3027;
   border: none;
   color: white;
-  border-radius: 20px;
-  padding: 10px 20px;
-  height: 35px;
+  border-radius: 35px;
+  padding: 10px 15px;
+
   text-decoration: none;
   box-shadow: 0 1px 5px 0 rgba(186, 49, 39, 0.5);
   cursor: pointer;
@@ -164,6 +164,7 @@ input[type="button"] {
 
 input[type="text"]:focus {
   border: 1px solid #ba3027;
+  transition: 200ms ease-in;
 }
 
 label {
@@ -220,9 +221,9 @@ label {
 }
 
 .nonprofitimg {
-  margin-left: -20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-left: -20px; */
+  margin-top: 40px;
+  /* margin-bottom: 30px; */
 }
 
 .section3 > .head_desc {
