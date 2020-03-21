@@ -16,7 +16,7 @@ body {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0)
     ),
-    url("Assets/coronavirus-map.jpg");
+    url("assets/coronavirus-map.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -193,7 +193,7 @@ label {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0)
     ),
-    url(Assets/nurses-test.png);
+    url(assets/nurses-test.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px;
@@ -241,7 +241,7 @@ label {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0)
     ),
-    url(Assets/glove-handcombat.jpg);
+    url(assets/glove-handcombat.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
